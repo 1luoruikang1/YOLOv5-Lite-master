@@ -1,0 +1,45 @@
+{
+    "os": "Darwin-19.6.0-x86_64-i386-64bit",
+    "python": "3.6.13",
+    "heartbeatAt": "2023-05-25T10:11:25.044412",
+    "startedAt": "2023-05-25T10:11:24.980668",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--data",
+        "mydataset.yaml",
+        "--cfg",
+        "v5lite-e.yaml",
+        "--weights",
+        "v5lite-e.pt",
+        "--batch-size",
+        "1"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "luoruikang",
+    "username": "ruik",
+    "executable": "/Users/Ruik/opt/anaconda3/envs/yolov5\u2014\u2014lite/bin/python",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2300,
+        "min": 2300,
+        "max": 2300
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2300,
+            "min": 2300,
+            "max": 2300
+        }
+    ],
+    "disk": {
+        "total": 233.46913528442383,
+        "used": 10.33261489868164
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

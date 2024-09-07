@@ -1,0 +1,8 @@
+train: ../dataset/train/images/
+val: ../dataset/train/images/
+
+# number of classes
+nc: 2
+
+# class names
+names: ['qrcode','barcode']
