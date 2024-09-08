@@ -1,10 +1,10 @@
 # YOLOv5-Lite：Lighter, faster and easier to deploy   ![](https://zenodo.org/badge/DOI/10.5281/zenodo.5241425.svg)
 
-![论文插图](https://user-images.githubusercontent.com/82716366/167448925-a431d3a4-ad5d-491d-be95-c90701122a54.png)
 
-Perform a series of ablation experiments on yolov5 to make it lighter (smaller Flops, lower memory, and fewer parameters) and faster (add shuffle channel, yolov5 head for channel reduce. It can infer at least 10+ FPS On the Raspberry Pi 4B when input the frame with 320×320) and is easier to deploy (removing the Focus layer and four slice operations, reducing the model quantization accuracy to an acceptable range).
 
-![image](https://user-images.githubusercontent.com/82716366/135564164-3ec169c8-93a7-4ea3-b0dc-40f1059601ef.png)
+We use 2000+ QRcode and Barcode pictures to train this model.The result is:
+
+![image](https://github.com/1luoruikang1/YOLOv5-Lite-master/blob/master/runs/train/exp54/results.png)
 
 ## Comparison of ablation experiment results
 
